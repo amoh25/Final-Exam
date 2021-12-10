@@ -45,6 +45,10 @@
   transition: background-color ease 0.3s;
 }
 
+.darkmode{
+  background-color: black;
+}
+
 .toggle:before {
   content: "";
   display: block;
@@ -186,4 +190,19 @@ input[type=text]:focus {
 .contact button {
  background: var(--darkGreen);
  color: var(--white);
+}
+
+@media (max-width: 600px) {
+h1 h2 h3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact .myForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 }
