@@ -4,7 +4,8 @@ function toggledark(){
     const dark = document.body;
     dark.classList.toggle('dark')
   }
-  )
+)
+
 }
 submitbtn = document.getElementById('frm-btn')
 submitbtn.addEventListener('click', function(i){
